@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./animate.css">
+ 
+    <title>Document</title>
+
+    <style>
+        body {
+            background: blue;
+        }
+
+        section {
+            width: 200px;
+            height: 200px;
+            background: brown;
+            border-radius: 50%;
+            margin: auto;
+        }
+
+        main {
+            display: flex;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="animate__bounce"></section>
+
+    <main>
+        <section class="wow slideInLeft"></section>
+        <section class="wow slideInRight"></section>
+    </main>
+
+    <section class="wow bounce" data-wow-duration="2s" data-wow-delay="5s"></section>
+    <section class="wow slideInRight" data-wow-offset="10"  data-wow-iteration="10"></section>
+  
+
+
+
+    <script src="./wow.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
